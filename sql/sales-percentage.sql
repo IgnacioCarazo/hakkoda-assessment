@@ -1,3 +1,4 @@
+CREATE TABLE sales_percentage AS
 WITH ProductSales AS (
     SELECT 
         product_id,

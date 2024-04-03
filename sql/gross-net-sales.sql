@@ -1,3 +1,4 @@
+CREATE TABLE gross_net_sales AS
 SELECT product_id,
        ROUND(gross_sale, 2) AS gross_sale,
        net_sale,
